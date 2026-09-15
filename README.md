@@ -1,28 +1,29 @@
-# ControlCaídas
+# Carrocerías Pintauto · Landing Page
 
-Prototipo visual de una app de detección de caídas y desmayos para personas mayores
-que viven solas, pensada para que hijos/cuidadores monitoreen la casa desde el móvil.
-
-El hardware objetivo es un ESP32 + sensor mmWave LD2450 (aún no disponible), así que
-este prototipo trabaja con **datos simulados** para poder diseñar y validar toda la
-experiencia de usuario antes de integrar el hardware real.
+Landing page monumental e inmersiva para **Carrocerías Pintauto** (C. de la Polea, 29-31,
+Rivas-Vaciamadrid), taller de chapa y pintura con más de 50 años de historia (desde 1968),
+concertado con Mapfre, AXA, Mutua Madrileña y otras aseguradoras.
 
 ## Concepto
 
-- Cada **familia** tiene una cuenta con su **casa**, sus **sensores** (uno por
-  habitación) y sus **cuidadores**, al estilo Life360.
-- El sensor solo importa si detecta o no una posible caída — no identifica a la
-  persona.
-- Cuando se detecta una posible caída, todos los cuidadores reciben una alerta a
-  pantalla completa con opción de confirmar, descartar o pedir ayuda, con un
-  escalado automático al siguiente contacto si nadie responde a tiempo.
+- Estética **Dark Titanium & Cyan Blue**: fondos en gris titanio oscuro/negro, acentos en
+  azul cian metálico y rojo industrial.
+- Tipografía kinetic (Barlow Condensed) con efecto de brillo metálico y expansión al
+  hacer scroll.
+- Animaciones de scroll con GSAP + ScrollTrigger: parallax en el hero, showcase de
+  tecnología con scroll horizontal pineado, timeline de historia 1968 → hoy.
+- Vídeos hiperrealistas generados con Higgsfield: transformación del taller 1968 → 2026,
+  cabina de pintura ecológica al agua, escaneo de bancada universal, partículas de
+  recubrimiento cerámico y gota de agua repeliendo en acabado espejo.
+- Selector interactivo en 3 pasos (aseguradora → tipo de servicio → datos del vehículo)
+  que genera un mensaje de WhatsApp directo al taller para tramitar partes y citas.
 
 ## Stack
 
-- React + TypeScript + Vite
-- Tailwind CSS v4 (tema de marca azul + estados de seguridad: verde/ámbar/rojo)
-- React Router
-- Estado en memoria (Context) con datos mock — sin backend todavía
+- React 19 + TypeScript + Vite
+- Tailwind CSS v4
+- GSAP + ScrollTrigger
+- Fuentes autoalojadas (`@fontsource/rajdhani`, `@fontsource/barlow-condensed`)
 
 ## Desarrollo
 
@@ -31,15 +32,12 @@ npm install
 npm run dev
 ```
 
-Hay un botón flotante "modo demo" en la esquina inferior derecha para simular una
-caída en cualquier habitación sin necesidad del hardware.
+## Estructura
 
-## Pantallas
-
-- **Inicio**: estado general de la casa y de cada habitación/sensor.
-- **Alerta**: pantalla completa roja al detectarse una posible caída, con
-  cuenta regresiva de escalado.
-- **Historial**: eventos pasados (caídas confirmadas, falsas alarmas, etc.).
-- **Sensores**: gestión de dispositivos ESP32 + LD2450 por habitación.
-- **Familia**: círculo de cuidadores y orden de aviso ante una alerta.
-- **Ajustes**: sensibilidad de detección, notificaciones, modo no molestar.
+- `src/components/Hero.tsx` — sección de apertura con vídeo de fondo y tipografía kinetic.
+- `src/components/TrustCarousel.tsx` — carrusel infinito de aseguradoras concertadas.
+- `src/components/TechShowcase.tsx` — showcase de tecnología con scroll horizontal pineado.
+- `src/components/Timeline.tsx` — línea de tiempo 1968 → hoy.
+- `src/components/PartesForm.tsx` — selector de 3 pasos para tramitar partes por WhatsApp.
+- `src/components/ContactMap.tsx` — datos de contacto, jefe de taller y mapa.
+- `src/data/` — contenido (aseguradoras, servicios, hitos, contacto, vídeos).
