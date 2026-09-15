@@ -51,8 +51,7 @@ export const SERVICES = [
     title: "Reformas Integrales & Locales",
     description:
       "Proyectos llave en mano para hogares y locales de Rivas-Vaciamadrid: del plano a la última mano de barniz, con un único interlocutor.",
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80&fit=crop",
+    image: "/images/reformas-integrales.png",
     accent: "build",
   },
 ] as const
@@ -92,8 +91,7 @@ export const FURNITURE_TYPES = [
 export const BEFORE_AFTER = {
   before: {
     label: "Antes",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&fit=crop",
+    image: "/images/antes-despues-before.png",
   },
   after: {
     label: "Después",
