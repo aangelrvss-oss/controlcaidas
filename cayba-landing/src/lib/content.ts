@@ -24,8 +24,7 @@ export const SERVICES = [
     title: "Armarios & Vestidores a Medida",
     description:
       "Interiores de vestidor diseñados al milímetro, puertas correderas silenciosas y herrajes de alta gama. Cada armario se fabrica para tu espacio, no al revés.",
-    image:
-      "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=1600&q=80&fit=crop",
+    image: "/images/armario-vestidor.png",
     accent: "door",
   },
   {
@@ -34,8 +33,7 @@ export const SERVICES = [
     title: "Palillería & Escaleras de Autor",
     description:
       "Listones de madera maciza compuestos como una partitura: escaleras, cabeceros y paneles con ritmo y sombra propios de la alta ebanistería.",
-    image:
-      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=1600&q=80&fit=crop",
+    image: "/images/palilleria-escaleras.png",
     accent: "slats",
   },
   {
@@ -44,8 +42,7 @@ export const SERVICES = [
     title: "Mobiliario de Baño & Salón",
     description:
       "Acabados resistentes a la humedad y al uso diario, con el mismo lenguaje de diseño contemporáneo en cada estancia de la casa.",
-    image:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&q=80&fit=crop",
+    image: "/images/bano-salon.png",
     accent: "panel",
   },
   {
@@ -100,7 +97,6 @@ export const BEFORE_AFTER = {
   },
   after: {
     label: "Después",
-    image:
-      "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1600&q=80&fit=crop",
+    image: "/images/antes-despues-after.png",
   },
 } as const
