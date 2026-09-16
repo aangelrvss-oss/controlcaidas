@@ -49,7 +49,7 @@ export default function ServicesShowcase() {
 
   return (
     <section id="servicios" ref={containerRef} className="relative h-screen overflow-hidden bg-carbon">
-      <div className="absolute left-1/2 top-10 z-20 -translate-x-1/2 text-center">
+      <div className="absolute left-1/2 top-20 z-20 -translate-x-1/2 text-center md:top-10">
         <p className="font-body text-xs uppercase tracking-[0.3em] text-gold">Showcase de Servicios</p>
         <h2 className="font-display mt-2 text-4xl text-white md:text-5xl">Lo que fabricamos</h2>
       </div>

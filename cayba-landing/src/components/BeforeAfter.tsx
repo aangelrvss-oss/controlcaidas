@@ -45,7 +45,7 @@ export default function BeforeAfter() {
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
           onPointerUp={onPointerUp}
-          className="relative aspect-[16/9] w-full select-none overflow-hidden rounded-3xl border border-line shadow-[0_40px_100px_rgba(0,0,0,0.55)]"
+          className="relative aspect-[16/9] w-full touch-pan-y select-none overflow-hidden rounded-3xl border border-line shadow-[0_40px_100px_rgba(0,0,0,0.55)]"
         >
           <video
             className="absolute inset-0 h-full w-full object-cover"

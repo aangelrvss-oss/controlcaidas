@@ -26,7 +26,10 @@ export default function Hero() {
     const lines = title.querySelectorAll<HTMLElement>("[data-line]")
 
     const ctx = gsap.context(() => {
-      gsap.set(lines, { letterSpacing: "0.35em", opacity: 0.35 })
+      // A wide starting letter-spacing looks dramatic on desktop but pushes long
+      // words like "ARTESANÍA" past the viewport edge on narrow phone screens.
+      const startSpacing = window.innerWidth < 640 ? "0.08em" : "0.35em"
+      gsap.set(lines, { letterSpacing: startSpacing, opacity: 0.35 })
 
       gsap.timeline({
         scrollTrigger: {
