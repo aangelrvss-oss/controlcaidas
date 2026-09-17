@@ -66,7 +66,7 @@ export default function Process() {
     <section id="proceso" ref={sectionRef} className="relative bg-carbon-soft py-28 md:py-40">
       <div className="mx-auto max-w-5xl px-6 lg:px-10">
         <div className="mb-20 text-center">
-          <p className="font-body text-xs uppercase tracking-[0.3em] text-gold">Nuestro Proceso</p>
+          <p className="font-body text-xs uppercase tracking-[0.3em] text-brand">Nuestro Proceso</p>
           <h2 className="font-display mt-2 text-4xl text-white md:text-6xl">Del plano a tu casa</h2>
         </div>
 
@@ -79,13 +79,13 @@ export default function Process() {
             preserveAspectRatio="none"
             aria-hidden
           >
-            <path ref={pathRef} d="M16 0 L16 800" stroke="url(#gold-wood)" strokeWidth="2" />
+            <path ref={pathRef} d="M16 0 L16 800" stroke="url(#brand-navy)" strokeWidth="2" />
             <defs>
               {/* userSpaceOnUse: this path is a perfectly vertical line (zero-width bounding
                   box), and objectBoundingBox gradients are spec'd to disable rendering in that case. */}
-              <linearGradient id="gold-wood" gradientUnits="userSpaceOnUse" x1="16" y1="0" x2="16" y2="800">
-                <stop offset="0%" stopColor="#D4AF37" />
-                <stop offset="100%" stopColor="#C88A58" />
+              <linearGradient id="brand-navy" gradientUnits="userSpaceOnUse" x1="16" y1="0" x2="16" y2="800">
+                <stop offset="0%" stopColor="#E8452F" />
+                <stop offset="100%" stopColor="#2547B0" />
               </linearGradient>
             </defs>
           </svg>
@@ -99,7 +99,7 @@ export default function Process() {
                 }}
                 className="relative flex items-start gap-6 rounded-2xl border border-line bg-carbon-card/60 p-6 md:bg-transparent md:border-0 md:p-0"
               >
-                <span className="font-display flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold/50 text-xl text-gold">
+                <span className="font-display flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-brand/50 text-xl text-brand">
                   {String(step.id).padStart(2, "0")}
                 </span>
                 <div>

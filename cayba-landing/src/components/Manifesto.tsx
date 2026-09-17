@@ -61,7 +61,7 @@ export default function Manifesto() {
       <div className="noise-overlay" />
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 lg:px-10">
-        <p className="mb-8 font-body text-xs uppercase tracking-[0.3em] text-gold">Manifiesto &amp; Historia</p>
+        <p className="mb-8 font-body text-xs uppercase tracking-[0.3em] text-brand">Manifiesto &amp; Historia</p>
 
         <p
           ref={textRef}
@@ -81,7 +81,7 @@ export default function Manifesto() {
             carpintería de referencia de {BRAND.city}.
           </p>
           <p className="font-body text-base leading-relaxed text-white/70">
-            Hoy seguimos siendo <span className="text-gold">los carpinteros del barrio</span>: la misma cercanía
+            Hoy seguimos siendo <span className="text-brand">los carpinteros del barrio</span>: la misma cercanía
             de siempre, elevada a la alta ebanistería a medida que exige cada proyecto contemporáneo.
           </p>
         </div>

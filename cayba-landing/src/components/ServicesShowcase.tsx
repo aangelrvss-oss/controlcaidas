@@ -50,7 +50,7 @@ export default function ServicesShowcase() {
   return (
     <section id="servicios" ref={containerRef} className="relative h-screen overflow-hidden bg-carbon">
       <div className="absolute left-1/2 top-20 z-20 -translate-x-1/2 text-center md:top-10">
-        <p className="font-body text-xs uppercase tracking-[0.3em] text-gold">Showcase de Servicios</p>
+        <p className="font-body text-xs uppercase tracking-[0.3em] text-brand">Showcase de Servicios</p>
         <h2 className="font-display mt-2 text-4xl text-white md:text-5xl">Lo que fabricamos</h2>
       </div>
 
@@ -71,12 +71,12 @@ export default function ServicesShowcase() {
               <>
                 <div
                   ref={doorLeftRef}
-                  className="absolute inset-y-0 left-0 w-1/2 border-r border-gold/30 bg-carbon-soft/95 backdrop-blur-sm"
+                  className="absolute inset-y-0 left-0 w-1/2 border-r border-brand/30 bg-carbon-soft/95 backdrop-blur-sm"
                   style={{ transform: "translateX(0%)" }}
                 />
                 <div
                   ref={doorRightRef}
-                  className="absolute inset-y-0 right-0 w-1/2 border-l border-gold/30 bg-carbon-soft/95 backdrop-blur-sm"
+                  className="absolute inset-y-0 right-0 w-1/2 border-l border-brand/30 bg-carbon-soft/95 backdrop-blur-sm"
                   style={{ transform: "translateX(0%)" }}
                 />
               </>
@@ -91,7 +91,7 @@ export default function ServicesShowcase() {
             )}
 
             <div className="relative z-10 flex h-full flex-col justify-end p-8 md:p-10">
-              <span className="font-display text-6xl text-gold/40 md:text-7xl">{service.index}</span>
+              <span className="font-display text-6xl text-brand/40 md:text-7xl">{service.index}</span>
               <h3 className="font-heading mt-4 max-w-md text-2xl font-semibold text-white md:text-3xl">
                 {service.title}
               </h3>

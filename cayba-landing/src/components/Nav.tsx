@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { BRAND } from "../lib/content"
+import Logo from "./Logo"
 
 const LINKS = [
   { href: "#manifiesto", label: "Historia" },
@@ -38,8 +39,8 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
-        <a href="#top" className="font-display text-2xl tracking-widest text-white" onClick={closeMenu}>
-          CAY<span className="text-gold">BA</span>
+        <a href="#top" onClick={closeMenu}>
+          <Logo />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -47,7 +48,7 @@ export default function Nav() {
             <a
               key={link.href}
               href={link.href}
-              className="wood-underline font-body text-sm uppercase tracking-wider text-white/80 transition-colors hover:text-white"
+              className="brand-underline font-body text-sm uppercase tracking-wider text-white/80 transition-colors hover:text-white"
             >
               {link.label}
             </a>
@@ -56,7 +57,7 @@ export default function Nav() {
 
         <a
           href={BRAND.phoneHref}
-          className="hidden rounded-full border border-gold/60 px-5 py-2 font-body text-sm uppercase tracking-wider text-gold transition-colors hover:bg-gold hover:text-carbon md:inline-block"
+          className="hidden rounded-full border border-brand/60 px-5 py-2 font-body text-sm uppercase tracking-wider text-brand transition-colors hover:bg-brand hover:text-carbon md:inline-block"
         >
           {BRAND.phone}
         </a>
@@ -89,7 +90,7 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={closeMenu}
-                className="border-b border-line/60 py-4 font-body text-base uppercase tracking-wider text-white/85 transition-colors hover:text-gold"
+                className="border-b border-line/60 py-4 font-body text-base uppercase tracking-wider text-white/85 transition-colors hover:text-brand"
               >
                 {link.label}
               </a>
@@ -97,7 +98,7 @@ export default function Nav() {
             <a
               href={BRAND.phoneHref}
               onClick={closeMenu}
-              className="mt-6 rounded-full bg-gold px-5 py-3 text-center font-body text-sm font-semibold uppercase tracking-wider text-carbon"
+              className="mt-6 rounded-full bg-brand px-5 py-3 text-center font-body text-sm font-semibold uppercase tracking-wider text-carbon"
             >
               Llamar: {BRAND.phone}
             </a>

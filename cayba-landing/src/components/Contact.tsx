@@ -34,7 +34,7 @@ export default function Contact() {
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-10">
         <div className="mb-16 text-center">
-          <p className="font-body text-xs uppercase tracking-[0.3em] text-gold">Presupuesto Express</p>
+          <p className="font-body text-xs uppercase tracking-[0.3em] text-brand">Presupuesto Express</p>
           <h2 className="font-display mt-2 text-4xl text-white md:text-6xl">
             {withSafeEnye("Diseña tu espacio")}
           </h2>
@@ -54,7 +54,7 @@ export default function Contact() {
                 <select
                   value={furnitureType}
                   onChange={(e) => setFurnitureType(e.target.value)}
-                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none focus:border-gold"
+                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none focus:border-brand"
                 >
                   {FURNITURE_TYPES.map((type) => (
                     <option key={type} value={type}>
@@ -71,7 +71,7 @@ export default function Contact() {
                   onChange={(e) => setName(e.target.value)}
                   type="text"
                   placeholder="Nombre y apellidos"
-                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-gold"
+                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-brand"
                 />
               </label>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                   onChange={(e) => setMeasurements(e.target.value)}
                   type="text"
                   placeholder='Ej. 2,40m x 2,60m x 0,60m'
-                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-gold"
+                  className="rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-brand"
                 />
               </label>
 
@@ -93,7 +93,7 @@ export default function Contact() {
                   onChange={(e) => setMessage(e.target.value)}
                   rows={4}
                   placeholder="Estilo, acabados, plazos..."
-                  className="resize-none rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-gold"
+                  className="resize-none rounded-xl border border-line bg-carbon px-4 py-3 font-body text-white outline-none placeholder:text-white/30 focus:border-brand"
                 />
               </label>
             </div>
@@ -101,13 +101,13 @@ export default function Contact() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <button
                 type="submit"
-                className="flex-1 rounded-full bg-gold px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-carbon transition-shadow hover:shadow-[0_0_40px_rgba(212,175,55,0.5)]"
+                className="flex-1 rounded-full bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-carbon transition-shadow hover:shadow-[0_0_40px_rgba(232,69,47,0.5)]"
               >
                 Enviar por WhatsApp
               </button>
               <a
                 href={BRAND.phoneHref}
-                className="flex-1 rounded-full border border-gold/50 px-8 py-4 text-center font-body text-sm font-semibold uppercase tracking-widest text-gold transition-colors hover:bg-gold hover:text-carbon"
+                className="flex-1 rounded-full border border-brand/50 px-8 py-4 text-center font-body text-sm font-semibold uppercase tracking-widest text-brand transition-colors hover:bg-brand hover:text-carbon"
               >
                 Llamar: {BRAND.phone}
               </a>
@@ -124,22 +124,22 @@ export default function Contact() {
               <div className="grid-fresadora absolute inset-0" />
               <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/20 to-transparent" />
               <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2 text-center transition-transform duration-300 group-hover:-translate-y-[60%]">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-gold text-gold">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-brand text-brand">
                   ●
                 </span>
                 <p className="font-body text-sm text-white">{BRAND.address}</p>
-                <span className="wood-underline font-body text-xs uppercase tracking-wider text-gold">
+                <span className="brand-underline font-body text-xs uppercase tracking-wider text-brand">
                   Abrir en Google Maps
                 </span>
               </div>
             </a>
 
             <div className="rounded-3xl border border-line bg-carbon-card/80 p-8 font-body text-white/70">
-              <p className="text-xs uppercase tracking-[0.3em] text-gold">Contacto directo</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-brand">Contacto directo</p>
               <p className="mt-4 text-lg text-white">{BRAND.phone}</p>
               <p className="mt-1">{BRAND.email}</p>
               <p className="mt-4 text-sm">{BRAND.address}</p>
-              <p className="mt-6 text-sm text-gold">{BRAND.rating.toFixed(1)} ★ en Google Maps</p>
+              <p className="mt-6 text-sm text-brand">{BRAND.rating.toFixed(1)} ★ en Google Maps</p>
             </div>
           </div>
         </div>

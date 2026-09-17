@@ -88,11 +88,11 @@ export default function Hero() {
       </div>
 
       <div
-        className="animate-pulse-badge absolute left-1/2 top-24 z-20 -translate-x-1/2 rounded-full border border-gold/40 bg-carbon/60 px-5 py-2 backdrop-blur-sm md:left-10 md:top-28 md:translate-x-0"
+        className="animate-pulse-badge absolute left-1/2 top-24 z-20 -translate-x-1/2 rounded-full border border-brand/40 bg-carbon/60 px-5 py-2 backdrop-blur-sm md:left-10 md:top-28 md:translate-x-0"
       >
         <p className="font-body text-[11px] uppercase tracking-[0.2em] text-bone/90 md:text-xs">
           {BRAND.city} &nbsp;|&nbsp; Desde el {BRAND.since} &nbsp;|&nbsp;{" "}
-          <span className="text-gold">{BRAND.rating.toFixed(1)} ★</span>
+          <span className="text-brand">{BRAND.rating.toFixed(1)} ★</span>
         </p>
       </div>
 
@@ -104,7 +104,7 @@ export default function Hero() {
           <span data-line className="block">
             Artesanía en madera.
           </span>
-          <span data-line className="text-gradient-gold block">
+          <span data-line className="text-gradient-brand block">
             {withSafeEnye("Diseño sin límites.")}
           </span>
         </h1>
@@ -116,7 +116,7 @@ export default function Hero() {
         <a
           ref={ctaRef}
           href="#contacto"
-          className="group relative mt-4 inline-flex items-center gap-3 rounded-full bg-gold px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-carbon transition-shadow duration-300 hover:shadow-[0_0_40px_rgba(212,175,55,0.5)]"
+          className="group relative mt-4 inline-flex items-center gap-3 rounded-full bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-carbon transition-shadow duration-300 hover:shadow-[0_0_40px_rgba(232,69,47,0.5)]"
         >
           Diseña tu Espacio
           <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">
@@ -126,7 +126,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-center">
-        <div className="mx-auto h-10 w-[1px] animate-pulse bg-gradient-to-b from-gold to-transparent" />
+        <div className="mx-auto h-10 w-[1px] animate-pulse bg-gradient-to-b from-brand to-transparent" />
         <p className="mt-2 font-body text-[10px] uppercase tracking-[0.3em] text-white/40">Scroll</p>
       </div>
     </section>

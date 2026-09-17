@@ -33,7 +33,7 @@ export default function BeforeAfter() {
     <section id="antes-despues" className="relative bg-carbon py-28 md:py-40">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         <div className="mb-14 text-center">
-          <p className="font-body text-xs uppercase tracking-[0.3em] text-gold">Transformación Real</p>
+          <p className="font-body text-xs uppercase tracking-[0.3em] text-brand">Transformación Real</p>
           <h2 className="font-display mt-2 text-4xl text-white md:text-6xl">Antes / Después</h2>
           <p className="mx-auto mt-4 max-w-xl font-body text-white/60">
             Arrastra para ver cómo una habitación vacía se convierte en un vestidor de roble iluminado a medida.
@@ -67,8 +67,8 @@ export default function BeforeAfter() {
           />
 
           <div className="pointer-events-none absolute inset-y-0 z-10" style={{ left: `${position}%` }}>
-            <div className="h-full w-[2px] bg-gold shadow-[0_0_20px_rgba(212,175,55,0.8)]" />
-            <div className="absolute top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-gold bg-carbon text-gold shadow-lg">
+            <div className="h-full w-[2px] bg-brand shadow-[0_0_20px_rgba(232,69,47,0.8)]" />
+            <div className="absolute top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-brand bg-carbon text-brand shadow-lg">
               <span className="text-xs">↔</span>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function BeforeAfter() {
           <span className="absolute left-4 top-4 z-10 rounded-full bg-carbon/70 px-3 py-1 font-body text-xs uppercase tracking-wider text-white/80 backdrop-blur-sm">
             {BEFORE_AFTER.before.label}
           </span>
-          <span className="absolute right-4 top-4 z-10 rounded-full bg-gold/90 px-3 py-1 font-body text-xs uppercase tracking-wider text-carbon backdrop-blur-sm">
+          <span className="absolute right-4 top-4 z-10 rounded-full bg-brand/90 px-3 py-1 font-body text-xs uppercase tracking-wider text-carbon backdrop-blur-sm">
             {BEFORE_AFTER.after.label}
           </span>
         </div>

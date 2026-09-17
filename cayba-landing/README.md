@@ -4,13 +4,14 @@ Landing page promocional para **CAYBA S.L. — Mobiliario y Decoración**
 (C. de la Fresadora 14, Polígono Santa Ana, Rivas-Vaciamadrid), carpintería y alta
 ebanistería a medida.
 
-Estética dark-mode premium (carbón + oro/madera), tipografía kinética, scroll horizontal
+Estética dark-mode premium con la marca real de CAYBA (rojo/naranja del icono de tejado +
+azul marino del wordmark), tipografía kinética, scroll horizontal
 con pinning, revelado de texto por scroll y un comparador antes/después interactivo.
 
 ## Stack
 
 - React 19 + TypeScript + Vite
-- Tailwind CSS v4 (tema custom: `carbon`, `gold`, `wood`, ver `src/index.css`)
+- Tailwind CSS v4 (tema custom: `carbon`, `brand` (rojo/naranja), `navy`, ver `src/index.css`)
 - GSAP + ScrollTrigger para todas las animaciones ligadas al scroll
 
 ## Desarrollo
@@ -31,7 +32,8 @@ npm run lint      # oxlint
 ```
 src/
   components/
-    Nav.tsx              nav fija, cambia de estilo al hacer scroll
+    Logo.tsx              icono de tejado (recreado en SVG) + wordmark, usado en Nav y Footer
+    Nav.tsx              nav fija, cambia de estilo al hacer scroll, menú hamburguesa en móvil
     Hero.tsx              tipografía kinética, HUD badge, CTA magnético, vídeo/dust
     Manifesto.tsx          revelado de texto palabra a palabra ligado al scroll
     ServicesShowcase.tsx   scroll horizontal con pin (GSAP), puertas correderas
