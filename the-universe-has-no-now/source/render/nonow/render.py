@@ -80,7 +80,7 @@ def main():
     ap.add_argument("--scale", type=float, default=1.0); ap.add_argument("--fps", type=float, default=None)
     ap.add_argument("--workers", type=int, default=4); ap.add_argument("--from", dest="f0", type=int, default=0)
     ap.add_argument("--to", dest="f1", type=int, default=None); ap.add_argument("--timeline", default=None)
-    ap.add_argument("--crf", type=int, default=17); ap.add_argument("--lt", type=float, default=None,
+    ap.add_argument("--crf", type=int, default=17); ap.add_argument("--chunk", type=int, default=600); ap.add_argument("--tag", default="film"); ap.add_argument("--lt", type=float, default=None,
                     help="for still: local time inside --id shot")
     a = ap.parse_args()
     tl = load_tl(a.timeline)
@@ -102,16 +102,35 @@ def main():
     elif a.mode == "frames":
         _render_range((tl, a.f0, a.f1 or tl["frames"], a.out, a.scale, fps_out, a.crf))
     else:
-        N = tl["frames"]; n = a.workers
-        bounds = [int(round(N * i / n)) for i in range(n + 1)]
-        segs = [os.path.join(ROOT, "build", "segs", f"seg{i:02d}.mp4") for i in range(n)]
-        os.makedirs(os.path.dirname(segs[0]), exist_ok=True)
-        jobs = [(tl, bounds[i], bounds[i + 1], segs[i], a.scale, fps_out, a.crf) for i in range(n)]
-        with Pool(n) as pool: pool.map(_render_range, jobs)
-        lst = os.path.join(ROOT, "build", "segs", "list.txt")
+        # resumable chunked render: ~chunk frames per segment, written to .part and renamed when complete
+        N = tl["frames"]; chunk = a.chunk
+        bounds = list(range(0, N, chunk)) + [N]
+        segdir = os.path.join(ROOT, "build", "segs", a.tag); os.makedirs(segdir, exist_ok=True)
+        jobs = []; segs = []
+        for i in range(len(bounds) - 1):
+            seg = os.path.join(segdir, f"seg{i:03d}.mp4"); segs.append(seg)
+            if os.path.exists(seg) and _complete(seg, bounds[i + 1] - bounds[i], fps_out, tl["fps"]):
+                continue
+            jobs.append((tl, bounds[i], bounds[i + 1], seg + ".part.mp4", a.scale, fps_out, a.crf))
+        print(f"{len(segs)} segments, {len(jobs)} to render", flush=True)
+        if jobs:
+            with Pool(a.workers) as pool:
+                for done in pool.imap_unordered(_render_range, jobs):
+                    os.replace(done, done.replace(".part.mp4", ""))
+                    print("completed", os.path.basename(done), flush=True)
+        lst = os.path.join(segdir, "list.txt")
         open(lst, "w").write("".join(f"file '{s}'\n" for s in segs))
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", a.out], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", a.out], check=True)
         print("wrote", a.out)
+
+def _complete(path, nframes, fps_out, fps):
+    try:
+        out = subprocess.run(["ffprobe", "-v", "error", "-count_packets", "-select_streams", "v:0", "-show_entries", "stream=nb_read_packets",
+                              "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip()
+        step = max(1, int(round(fps / fps_out)))
+        return int(out) == len(range(0, nframes, step))
+    except Exception:
+        return False
 
 if __name__ == "__main__":
     main()
