@@ -1,0 +1,6 @@
+build/
+voice/lines/
+voice/trailer/
+*.wav
+*.pyc
+__pycache__/
