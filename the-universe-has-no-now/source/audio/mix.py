@@ -51,6 +51,6 @@ if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "audio"), exist_ok=True)
     raw = os.path.join(ROOT, "build", "mix_raw.wav"); sf.write(raw, mix, SR, subtype="PCM_24")
     out = os.path.join(ROOT, "audio", "mix.wav")
-    j = loudnorm(raw, out, TP=-1.5)
+    j = loudnorm(raw, out, TP=-2.5)
     print("pass1:", {k: j[k] for k in ("input_i", "input_tp", "input_lra")})
     print(measure(out))

@@ -20,8 +20,8 @@ def render(ctx, t, dur, p, shot):
         for k, v in enumerate(speeds):
             x = W * (0.2 + 0.08 * k) + v * 120 * s * (t % 6)
             if x < W * 0.9:
+                L.radial(x, y - 40 * s, 90 * s, P.amber if k == 0 else P.dim, a=0.28)
                 silhouette_figure(L, x, y, 90 * s, color=(0.0, 0.0, 0.0), a=1.0, t=t + k)
-                L.radial(x, y - 45 * s, 70 * s, P.amber if k == 0 else P.dim, a=0.07)
                 T.label(L, f"v = {v:.2f} c" if v else "v = 0", x, y + 30 * s, H, a=0.8, size=16)
         # light pulse crosses at fixed speed regardless
         xp = W * 0.08 + ((t * 0.55) % 1.0) * W * 0.84

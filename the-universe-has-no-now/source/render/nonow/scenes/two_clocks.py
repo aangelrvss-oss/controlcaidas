@@ -34,8 +34,8 @@ def render(ctx, t, dur, p, shot):
         L.polyline(pts, P.dim, w=1.2, a=0.35 * a)
         for k, cx in enumerate((W * 0.22, W * 0.78)):
             cy = y0 - 170 * s + 0.00022 * (cx - W / 2) ** 2 / s
+            L.radial(cx, cy + 80 * s, 120 * s, P.amber, a=0.30 * a)
             silhouette_figure(L, cx, cy + 150 * s, 120 * s, color=(0.0, 0.0, 0.0), a=a, t=t)
-            L.radial(cx, cy + 90 * s, 90 * s, P.amber, a=0.08 * a)
             draw_clock(L, cx, cy - 130 * s, r, sec, a=a, H=H, label=("A", "B")[k], minute=False)
         T.label(L, "6 000 km", W / 2, y0 - 30 * s, H, a=0.7 * a)
         L.line(W * 0.30, y0 - 50 * s, W * 0.70, y0 - 50 * s, P.dim, w=1.0, a=0.3 * a)
