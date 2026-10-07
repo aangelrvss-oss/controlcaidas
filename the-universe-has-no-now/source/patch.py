@@ -18,8 +18,8 @@ clips = []
 for k, (f0, f1) in enumerate(ranges):
     out = os.path.join(ROOT, "build", "segs", f"patch{k:02d}.mp4")
     env = dict(os.environ, LD_LIBRARY_PATH="/root/lib")
-    subprocess.run([sys.executable, "-m", "nonow.render", "frames", "--from", str(f0), "--to", str(f1), "--out", out, "--crf", "18"],
-                   cwd=os.path.join(ROOT, "source", "render"), env=env, check=True)
+    subprocess.run([sys.executable, "-m", "nonow.render", "film", "--from", str(f0), "--to", str(f1), "--out", out, "--crf", "18",
+                    "--workers", "4", "--chunk", "240", "--tag", f"patch{k:02d}"], cwd=os.path.join(ROOT, "source", "render"), env=env, check=True)
     clips.append((f0, f1, out))
 master = os.path.join(ROOT, "build", "film_video.mp4")
 inputs = ["-i", master]; parts = []; cur = 0; n = 0

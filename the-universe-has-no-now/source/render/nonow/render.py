@@ -103,8 +103,8 @@ def main():
         _render_range((tl, a.f0, a.f1 or tl["frames"], a.out, a.scale, fps_out, a.crf))
     else:
         # resumable chunked render: ~chunk frames per segment, written to .part and renamed when complete
-        N = tl["frames"]; chunk = a.chunk
-        bounds = list(range(0, N, chunk)) + [N]
+        N = a.f1 or tl["frames"]; chunk = a.chunk
+        bounds = list(range(a.f0, N, chunk)) + [N]
         segdir = os.path.join(ROOT, "build", "segs", a.tag); os.makedirs(segdir, exist_ok=True)
         jobs = []; segs = []
         for i in range(len(bounds) - 1):
