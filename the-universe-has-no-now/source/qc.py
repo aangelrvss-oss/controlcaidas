@@ -33,6 +33,6 @@ for sid, sc, d, lm, lmin, mo, db in rows:
     out.append(f"| {sid} | {sc} | {d:.1f} | {lm:.1f} | {lmin:.1f} | {mo:.2f} | {db:.1f} |")
     if mo < 0.08 and sc not in ("card", "credits"): flags.append(f"{sid}: low motion ({mo:.2f})")
     if db < -45: flags.append(f"{sid}: very quiet audio ({db:.1f} dBFS)")
-out += ["", "## Automatic flags", *(["- " + f for f in flags] or ["- none"])]
+out += ["", "## Automatic flags", *(["- " + f for f in flags] or ["- none"]), "", "Notes: S01 and S57 are intentional silences (black cards). The editorial critique and the iteration pass are in `SELF-CRITIQUE.md`."]
 os.makedirs(os.path.join(ROOT, "docs"), exist_ok=True)
 open(os.path.join(ROOT, "docs", "QC-REPORT.md"), "w").write("\n".join(out)); print("\n".join(out[-len(flags) - 2:]))
