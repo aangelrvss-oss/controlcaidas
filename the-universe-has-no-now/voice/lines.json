@@ -1,0 +1,933 @@
+{
+ "S02_00": {
+  "text": "Two clocks.",
+  "dur": 0.959,
+  "hash": "b07b9765d7",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S02_01": {
+  "text": "Two places.",
+  "dur": 1.037,
+  "hash": "621d5fd61a",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S02_02": {
+  "text": "One moment.",
+  "dur": 0.962,
+  "hash": "060d75c069",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S03_00": {
+  "text": "It feels like the simplest idea in the world: everyone, everywhere, shares the same now.",
+  "dur": 5.76,
+  "hash": "2e1a1eb3b4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S03_01": {
+  "text": "Everyone, everywhere, shares the same now.",
+  "dur": 2.517,
+  "hash": "41a1a33483",
+  "voice": "af_heart",
+  "speed": 0.95
+ },
+ "S04_00": {
+  "text": "It is not simple.",
+  "dur": 1.279,
+  "hash": "7a4ae032f7",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S04_01": {
+  "text": "And strictly speaking, it is not true.",
+  "dur": 2.368,
+  "hash": "1ae5e1f394",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S05_00": {
+  "text": "In 1905, Einstein began with two facts that had been measured, but not understood.",
+  "dur": 6.123,
+  "hash": "f8d2e996d5",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S06_00": {
+  "text": "The laws of physics look the same to anyone moving at constant velocity.",
+  "dur": 4.736,
+  "hash": "04b429f70d",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S06_01": {
+  "text": "And light, in empty space, always moves at the same speed, whoever is measuring it.",
+  "dur": 5.307,
+  "hash": "4a1916af26",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S07_00": {
+  "text": "Hold on to both at once, and something has to give.",
+  "dur": 3.051,
+  "hash": "c803e7fe24",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S07_01": {
+  "text": "What gives is the idea of a shared now.",
+  "dur": 2.368,
+  "hash": "db6a76f5b0",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S08_00": {
+  "text": "Picture a flash of light released from the exact middle of a moving ship.",
+  "dur": 4.224,
+  "hash": "f3b5ab1976",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S08_01": {
+  "text": "For someone on board, it reaches the front and the back at the same instant.",
+  "dur": 4.373,
+  "hash": "75ba15e812",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S09_00": {
+  "text": "For someone watching the ship pass, the back wall rushes toward the light, and the front wall runs away from it.",
+  "dur": 6.315,
+  "hash": "6bfca5b253",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S09_01": {
+  "text": "The flash reaches the back first.",
+  "dur": 1.979,
+  "hash": "b0f2de0d62",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S10_00": {
+  "text": "Neither of them is wrong.",
+  "dur": 1.494,
+  "hash": "9287ff2a8b",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S10_01": {
+  "text": "The order of distant events depends on how you are moving, and no experiment can settle which of them is right.",
+  "dur": 6.722,
+  "hash": "c28442d5a4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S10_02": {
+  "text": "No experiment, anywhere, can settle which of them is right.",
+  "dur": 3.563,
+  "hash": "eee5c8ecc8",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S11_00": {
+  "text": "Follow the consequences, and the familiar structure of time comes apart.",
+  "dur": 4.331,
+  "hash": "a903fc2f85",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S12_00": {
+  "text": "A moving clock ticks more slowly, as measured by someone it moves past.",
+  "dur": 4.544,
+  "hash": "0369283465",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S12_01": {
+  "text": "A moving ruler is shorter along its direction of travel.",
+  "dur": 3.285,
+  "hash": "54bdadf7ce",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S12_02": {
+  "text": "These are not illusions. They are measurements.",
+  "dur": 2.475,
+  "hash": "2d74d07452",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S13_00": {
+  "text": "To see why, physicists draw a map that no one can walk on.",
+  "dur": 3.682,
+  "hash": "c717612093",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S13_01": {
+  "text": "Space along one axis. Time along the other.",
+  "dur": 3.051,
+  "hash": "33ec9dc29e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S13_02": {
+  "text": "Light travels at forty-five degrees.",
+  "dur": 2.259,
+  "hash": "44ec786a00",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S14_00": {
+  "text": "Every clock traces a line through this map: its world line.",
+  "dur": 3.52,
+  "hash": "98b44a1b2e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S14_01": {
+  "text": "And everything that can ever influence an event, or be influenced by it, lies inside two cones of light.",
+  "dur": 6.741,
+  "hash": "a7c0e9cedf",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S15_00": {
+  "text": "Outside the cones lies a vast region of events that are neither before nor after.",
+  "dur": 5.291,
+  "hash": "6c4bc84140",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S15_01": {
+  "text": "For them, 'now' is simply not defined.",
+  "dur": 2.347,
+  "hash": "17a8c36225",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S16_00": {
+  "text": "Change your velocity, and the slice you call 'the present' tilts.",
+  "dur": 3.541,
+  "hash": "c9e6da1797",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S16_01": {
+  "text": "What happens 'at the same time' on a distant star is, quite literally, a matter of perspective.",
+  "dur": 5.803,
+  "hash": "b1ad4bf5c9",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S17_00": {
+  "text": "This is not philosophy. It is measured every day.",
+  "dur": 3.243,
+  "hash": "c274dabb20",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S17_01": {
+  "text": "Clocks aboard GPS satellites gain about thirty-eight microseconds a day on clocks on the ground.",
+  "dur": 6.592,
+  "hash": "a3ac42985b",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S17_02": {
+  "text": "Left uncorrected, your position would drift by kilometers within a day.",
+  "dur": 4.395,
+  "hash": "6c874e4778",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S18_00": {
+  "text": "So light sets the rules.",
+  "dur": 1.572,
+  "hash": "37f36dcad5",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S18_01": {
+  "text": "Follow a single pulse, and you can measure the universe with it.",
+  "dur": 3.499,
+  "hash": "697bcdf343",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S19_00": {
+  "text": "Across an atom, it takes less than a billionth of a billionth of a second.",
+  "dur": 4.48,
+  "hash": "79dd7f3999",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S20_00": {
+  "text": "Across a human body, a few billionths of a second.",
+  "dur": 3.136,
+  "hash": "03ee2c3d3e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S21_00": {
+  "text": "Around the Earth, seven times in one second.",
+  "dur": 2.752,
+  "hash": "6dd656c9e7",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S22_00": {
+  "text": "To the Moon, a little over a second.",
+  "dur": 2.13,
+  "hash": "88fa68431f",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S22_01": {
+  "text": "To the Sun, eight minutes.",
+  "dur": 1.588,
+  "hash": "1c081893bb",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S22_02": {
+  "text": "To the Voyager probes, most of a day.",
+  "dur": 2.201,
+  "hash": "d7ba05db20",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S23_00": {
+  "text": "To the nearest star, four years.",
+  "dur": 1.922,
+  "hash": "641738b63e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S23_01": {
+  "text": "Across our galaxy, a hundred thousand years.",
+  "dur": 2.859,
+  "hash": "75f2ca6664",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S23_02": {
+  "text": "To the farthest light we can see, more than thirteen billion years.",
+  "dur": 3.691,
+  "hash": "e14f598890",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S24_00": {
+  "text": "Every image of the sky is a layered photograph of different pasts.",
+  "dur": 4.053,
+  "hash": "ffa17a3cc0",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S24_01": {
+  "text": "There is no single 'now' out there to look at.",
+  "dur": 2.304,
+  "hash": "f4fb758a84",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S24_02": {
+  "text": "There never was.",
+  "dur": 1.106,
+  "hash": "abce382cc9",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S25_00": {
+  "text": "Then Einstein asked a harder question.",
+  "dur": 2.279,
+  "hash": "4306f2abe5",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S25_01": {
+  "text": "What happens to this map when gravity is present?",
+  "dur": 2.859,
+  "hash": "2cf6dda413",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S26_00": {
+  "text": "His answer took ten years.",
+  "dur": 1.6,
+  "hash": "95e029b158",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S26_01": {
+  "text": "Gravity is not a force pulling through space. It is the shape of space and time themselves.",
+  "dur": 5.824,
+  "hash": "e5e28b2e99",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S27_00": {
+  "text": "Mass tells spacetime how to curve.",
+  "dur": 2.048,
+  "hash": "a5ed5803cc",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S27_01": {
+  "text": "Curved spacetime tells mass how to move.",
+  "dur": 2.325,
+  "hash": "41810f43b4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S28_00": {
+  "text": "A planet in orbit is not being pulled.",
+  "dur": 2.45,
+  "hash": "c30afd3821",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S28_01": {
+  "text": "It is travelling as straight as it can through a geometry that is bent.",
+  "dur": 3.904,
+  "hash": "5ee4affd3d",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S29_00": {
+  "text": "Light bends too.",
+  "dur": 1.221,
+  "hash": "43735c6a5f",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S29_01": {
+  "text": "A galaxy behind a massive cluster is smeared into arcs and rings: a lens made of pure gravity.",
+  "dur": 6.464,
+  "hash": "67e6a27146",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S30_00": {
+  "text": "And clocks run at different rates depending on where they sit in that geometry.",
+  "dur": 4.523,
+  "hash": "9f98c05435",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S30_01": {
+  "text": "Deeper in a gravitational well, time runs slower.",
+  "dur": 3.2,
+  "hash": "9be6c3e660",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S30_02": {
+  "text": "In 2010, two atomic clocks, one raised just thirty-three centimeters above the other, measurably disagreed.",
+  "dur": 7.659,
+  "hash": "eb834d2889",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S31_00": {
+  "text": "Compress enough mass into a small enough region, and there is a boundary from which no path leads back out. Not even for light.",
+  "dur": 7.701,
+  "hash": "01e1ef6581",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S31_01": {
+  "text": "We call it the event horizon.",
+  "dur": 1.88,
+  "hash": "5b1b38e5be",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S31_02": {
+  "text": "We call it the event horizon.",
+  "dur": 1.88,
+  "hash": "5b1b38e5be",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S32_00": {
+  "text": "This image is computed, not painted.",
+  "dur": 2.432,
+  "hash": "3abc1a2ff1",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S32_01": {
+  "text": "Every pixel is a path of light, traced through the geometry Karl Schwarzschild derived from Einstein's equations in 1916.",
+  "dur": 9.173,
+  "hash": "053e46d4b5",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S33_00": {
+  "text": "Hot gas spirals inward in a thin disk.",
+  "dur": 2.624,
+  "hash": "637a442dfe",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S33_01": {
+  "text": "Light from the far side of the disk is bent up and over the hole, so you see what is behind it.",
+  "dur": 5.419,
+  "hash": "b8955b293c",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S34_00": {
+  "text": "The side rotating toward you is brighter.",
+  "dur": 2.491,
+  "hash": "7706dd9f43",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S34_01": {
+  "text": "The gas there moves at a good fraction of the speed of light; its glow is beamed forward and shifted toward blue.",
+  "dur": 6.815,
+  "hash": "3bb6c80a0e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S35_00": {
+  "text": "And around the shadow, a thin bright ring: light that circled the black hole before escaping.",
+  "dur": 5.771,
+  "hash": "7505bfc222",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S35_01": {
+  "text": "In 2019, the Event Horizon Telescope saw that ring around the black hole in the galaxy M87; in 2022, around the one at the center of our own.",
+  "dur": 12.459,
+  "hash": "81385c1bc4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S35_02": {
+  "text": "In 2022, around the one at the center of our own.",
+  "dur": 3.84,
+  "hash": "525880a700",
+  "voice": "af_heart",
+  "speed": 0.95
+ },
+ "S36_00": {
+  "text": "At the horizon, seen from far away, a falling clock seems to slow, and stop.",
+  "dur": 5.035,
+  "hash": "9ad0ee1857",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S36_01": {
+  "text": "For the one who falls, nothing special marks the crossing.",
+  "dur": 3.349,
+  "hash": "f26c4230a9",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S36_02": {
+  "text": "Both descriptions are correct.",
+  "dur": 1.792,
+  "hash": "434e09686e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S36_03": {
+  "text": "There is no now they could share.",
+  "dur": 1.635,
+  "hash": "b8d95502e2",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S37_00": {
+  "text": "While relativity was redrawing the large, a different revolution was dismantling the small.",
+  "dur": 5.419,
+  "hash": "6f56815d2e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S38_00": {
+  "text": "An electron in an atom is not a tiny planet on a tiny orbit.",
+  "dur": 4.053,
+  "hash": "ee3856a6ad",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S38_01": {
+  "text": "It is better described by a wave of possibility: a cloud whose shape is the solution of an equation.",
+  "dur": 6.656,
+  "hash": "f955a77692",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S39_00": {
+  "text": "Where the wave is dense, the electron is likely to be found.",
+  "dur": 3.541,
+  "hash": "a3df328349",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S39_01": {
+  "text": "Where it cancels itself, it is never found.",
+  "dur": 2.585,
+  "hash": "d4bcae60b4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S39_02": {
+  "text": "Interference, not orbit.",
+  "dur": 1.643,
+  "hash": "01d2e5a342",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S40_00": {
+  "text": "A quantum system can be in a superposition: not here or there, but a precise blend of both, with amplitudes that add and subtract like waves.",
+  "dur": 9.557,
+  "hash": "a7e1293b18",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S40_01": {
+  "text": "Measure it, and you get one definite answer.",
+  "dur": 2.592,
+  "hash": "1e6cbb4383",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S40_02": {
+  "text": "Repeat it, and the answers follow the probabilities the wave predicted.",
+  "dur": 4.224,
+  "hash": "0ffd57cc2b",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S41_00": {
+  "text": "And some pairs of questions cannot both have sharp answers.",
+  "dur": 3.563,
+  "hash": "8295d1555a",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S41_01": {
+  "text": "The more precisely a position is fixed, the less precisely momentum can be.",
+  "dur": 4.587,
+  "hash": "aa9facfca9",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S41_02": {
+  "text": "This is not a limit of instruments. It is a property of waves.",
+  "dur": 3.84,
+  "hash": "ea279e6251",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S42_00": {
+  "text": "Now take two particles, prepared together, so that their properties are linked.",
+  "dur": 4.416,
+  "hash": "be694954f7",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S43_00": {
+  "text": "Send one to a laboratory on Earth.",
+  "dur": 2.048,
+  "hash": "793fd4b897",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S43_01": {
+  "text": "Send the other across the solar system.",
+  "dur": 2.226,
+  "hash": "e46370a494",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S44_00": {
+  "text": "Measure each one, and its answer is random.",
+  "dur": 2.752,
+  "hash": "0d8ec0d78c",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S44_01": {
+  "text": "Compare them, and they match, every time, in ways no story of hidden, pre-arranged values can reproduce.",
+  "dur": 6.848,
+  "hash": "8d55e9d4c8",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S44_02": {
+  "text": "That is what Bell's theorem proves, and what experiments have confirmed, loophole by loophole.",
+  "dur": 5.589,
+  "hash": "311c9a42c4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S44_03": {
+  "text": "That is what Bell's theorem proves, and what experiments have confirmed, loophole by loophole.",
+  "dur": 5.589,
+  "hash": "311c9a42c4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S45_00": {
+  "text": "But look carefully at what did not happen.",
+  "dur": 2.235,
+  "hash": "bf45b4f89c",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S45_01": {
+  "text": "Nothing travelled between them.",
+  "dur": 1.723,
+  "hash": "fa68730471",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S45_02": {
+  "text": "No one on Earth can choose which answer the distant particle gives. So: no message, no signal, nothing faster than light.",
+  "dur": 8.32,
+  "hash": "293f6119bd",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S45_03": {
+  "text": "Entanglement is a correlation written into the state of the pair. It cannot carry a message.",
+  "dur": 5.696,
+  "hash": "7f10eca8b2",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S46_00": {
+  "text": "So we arrive at the strangest situation in modern science.",
+  "dur": 3.669,
+  "hash": "d134e3c5ed",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S47_00": {
+  "text": "On one side, general relativity: gravity as geometry.",
+  "dur": 4.153,
+  "hash": "c702d217a4",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S47_01": {
+  "text": "It predicted the bending of starlight, the slowing of clocks, black holes, and the gravitational waves first detected in 2015.",
+  "dur": 8.96,
+  "hash": "41207bd72f",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S48_00": {
+  "text": "On the other, quantum field theory: particles as excitations of fields filling all of space.",
+  "dur": 5.865,
+  "hash": "98b7215cbb",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S48_01": {
+  "text": "It predicts the magnetism of the electron to twelve decimal places.",
+  "dur": 4.629,
+  "hash": "cbd9f9d53f",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S49_00": {
+  "text": "Each works, in its domain, to a precision that is almost absurd. But they speak different languages.",
+  "dur": 6.315,
+  "hash": "126db6bd21",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S49_01": {
+  "text": "In relativity, spacetime is a smooth, dynamic stage, shaped by the matter on it.",
+  "dur": 5.504,
+  "hash": "214026ac7e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S49_02": {
+  "text": "In quantum theory, the stage is fixed, and the actors are uncertain.",
+  "dur": 4.224,
+  "hash": "2f778af1d2",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S49_03": {
+  "text": "In quantum theory, the stage is fixed, and the actors are uncertain.",
+  "dur": 4.075,
+  "hash": "f1b6218814",
+  "voice": "af_heart",
+  "speed": 0.95
+ },
+ "S50_00": {
+  "text": "Try to make gravity itself quantum, the way the other forces are, and the calculations fill with infinities the usual methods cannot tame.",
+  "dur": 8.747,
+  "hash": "7ff8ab18ed",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S50_01": {
+  "text": "At ordinary energies this is harmless: each theory is used where it applies.",
+  "dur": 4.835,
+  "hash": "dd52bdb178",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S50_02": {
+  "text": "But at the center of a black hole, and in the first instant of the universe, both must matter at once.",
+  "dur": 6.059,
+  "hash": "166d6d5cf1",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S50_03": {
+  "text": "There, our best descriptions stop making predictions.",
+  "dur": 3.072,
+  "hash": "3dc11b40a7",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S51_00": {
+  "text": "What is reality made of, at the deepest level?",
+  "dur": 2.729,
+  "hash": "bdf7e69103",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S51_01": {
+  "text": "We do not know.",
+  "dur": 1.055,
+  "hash": "0771d16147",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S51_02": {
+  "text": "Not yet.",
+  "dur": 0.9,
+  "hash": "e19000d62b",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S52_00": {
+  "text": "There are serious candidates.",
+  "dur": 1.643,
+  "hash": "51ae739d2e",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S52_01": {
+  "text": "String theory.",
+  "dur": 0.944,
+  "hash": "c4e58b7f5b",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S52_02": {
+  "text": "Loop quantum gravity.",
+  "dur": 1.472,
+  "hash": "8e604bcfcc",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S52_03": {
+  "text": "Ideas in which space and time themselves emerge from something deeper, the way temperature emerges from the motion of molecules.",
+  "dur": 8.085,
+  "hash": "2a8f288d53",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S53_00": {
+  "text": "None of them has yet made a prediction that experiment has confirmed.",
+  "dur": 4.245,
+  "hash": "5b9111aa51",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S53_01": {
+  "text": "They are not established physics. They are the frontier.",
+  "dur": 3.008,
+  "hash": "fe91771351",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S54_00": {
+  "text": "What is established is this.",
+  "dur": 1.707,
+  "hash": "5a05700052",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S54_01": {
+  "text": "There is no universal now.",
+  "dur": 1.707,
+  "hash": "31e4732cec",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S54_02": {
+  "text": "Time is local, and relative, and shaped by mass.",
+  "dur": 3.221,
+  "hash": "8dda158313",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S54_03": {
+  "text": "At the smallest scales, reality is probabilistic, and correlated in ways that have no classical explanation.",
+  "dur": 7.147,
+  "hash": "c4ebb85608",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S54_04": {
+  "text": "And our two best theories, each confirmed beyond reasonable doubt, do not yet fit together.",
+  "dur": 5.705,
+  "hash": "6fbc97f136",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S55_00": {
+  "text": "So return to the first clock.",
+  "dur": 1.792,
+  "hash": "3765e9237d",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S55_01": {
+  "text": "Are these two events happening at the same time?",
+  "dur": 2.476,
+  "hash": "2a62ced79f",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S56_00": {
+  "text": "The question that seemed trivial was never trivial.",
+  "dur": 2.921,
+  "hash": "00d2f16312",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S56_01": {
+  "text": "It depends on where you stand, how you move, and what you are near.",
+  "dur": 3.52,
+  "hash": "554dea5524",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ "S56_02": {
+  "text": "And the universe, as far as we can tell, keeps no single time for anyone.",
+  "dur": 4.544,
+  "hash": "62f808a42c",
+  "voice": "af_heart",
+  "speed": 0.9
+ }
+}
